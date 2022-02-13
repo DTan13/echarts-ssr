@@ -1,0 +1,23 @@
+{
+  "name": "alpha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dhananjay Tanpure <dhananjaytanpure13@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start-dev": "nodemon -i web/build -x 'cd web && npm run build && cd .. && env-cmd -f config/dev.env node src/index.js'",
+    "serve-dev": "nodemon -i web/build -x 'env-cmd -f config/dev.env node src/index.js'",
+    "start": "nodemon -x 'env-cmd -f config/dev.env node src/index.js'"
+  },
+  "dependencies": {
+    "canvas": "^2.9.0",
+    "cors": "^2.8.5",
+    "echarts": "^5.3.0",
+    "express": "^4.17.2",
+    "express-request-id": "^2.0.1",
+    "jsdom": "^19.0.0",
+    "mongoose": "^6.2.1",
+    "uuid": "^8.3.2"
+  }
+}

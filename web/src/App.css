@@ -1,0 +1,28 @@
+.no-page{
+  height: 100%;
+  margin: auto;
+}
+.column {
+  float: left;
+  width: 50%;
+  height: 100%;
+  min-height: 600px;
+}
+.column1 {
+  float: left;
+  width: 30%;
+  height: 100%;
+  min-height: 600px;
+}
+.column2 {
+  float: left;
+  width: 70%;
+  height: 100%;
+  min-height: 600px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

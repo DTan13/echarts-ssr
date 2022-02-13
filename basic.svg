@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full"
+  width="800" height="800"
+  style="position:absolute;left:0;top:0;user-select:none"><rect width="800"
+    height="800" x="0" y="0" id="0" fill="none" fill-opacity="1"></rect><g><path
+      d="M80 730.5L720 730.5" fill="none" stroke="#E0E6F1"></path><path d="M80
+      596.5L720 596.5" fill="none" stroke="#E0E6F1"></path><path d="M80
+      462.5L720 462.5" fill="none" stroke="#E0E6F1"></path><path d="M80
+      328.5L720 328.5" fill="none" stroke="#E0E6F1"></path><path d="M80
+      194.5L720 194.5" fill="none" stroke="#E0E6F1"></path><path d="M80 60.5L720
+      60.5" fill="none" stroke="#E0E6F1"></path><path d="M80 730.5L720 730.5"
+      fill="none" stroke="#E0E6F1"></path><path d="M80 596.5L720 596.5"
+      fill="none" stroke="#E0E6F1"></path><path d="M80 462.5L720 462.5"
+      fill="none" stroke="#E0E6F1"></path><path d="M80 328.5L720 328.5"
+      fill="none" stroke="#E0E6F1"></path><path d="M80 194.5L720 194.5"
+      fill="none" stroke="#E0E6F1"></path><path d="M80 60.5L720 60.5"
+      fill="none" stroke="#E0E6F1"></path><text dominant-baseline="central"
+      text-anchor="middle" style="font-size:12px;font-family:sans-serif;" y="-6"
+      transform="translate(80 45)" fill="#6E7079">Precipitation</text><text
+      dominant-baseline="central" text-anchor="middle"
+      style="font-size:12px;font-family:sans-serif;" y="-6"
+      transform="translate(720 45)" fill="#6E7079">Temperature</text><path
+      d="M80 730.5L720 730.5" fill="none" stroke="#6E7079"
+      stroke-linecap="round"></path><path d="M80.5 730L80.5 735" fill="none"
+      stroke="#6E7079"></path><path d="M171.5 730L171.5 735" fill="none"
+      stroke="#6E7079"></path><path d="M263.5 730L263.5 735" fill="none"
+      stroke="#6E7079"></path><path d="M354.5 730L354.5 735" fill="none"
+      stroke="#6E7079"></path><path d="M445.5 730L445.5 735" fill="none"
+      stroke="#6E7079"></path><path d="M537.5 730L537.5 735" fill="none"
+      stroke="#6E7079"></path><path d="M628.5 730L628.5 735" fill="none"
+      stroke="#6E7079"></path><path d="M720.5 730L720.5 735" fill="none"
+      stroke="#6E7079"></path><text dominant-baseline="central"
+      text-anchor="end" style="font-size:12px;font-family:sans-serif;"
+      xml:space="preserve" transform="translate(72 730)" fill="#6E7079">0 ml</text><text
+      dominant-baseline="central" text-anchor="end"
+      style="font-size:12px;font-family:sans-serif;" xml:space="preserve"
+      transform="translate(72 596)" fill="#6E7079">50 ml</text><text
+      dominant-baseline="central" text-anchor="end"
+      style="font-size:12px;font-family:sans-serif;" xml:space="preserve"
+      transform="translate(72 462)" fill="#6E7079">100 ml</text><text
+      dominant-baseline="central" text-anchor="end"
+      style="font-size:12px;font-family:sans-serif;" xml:space="preserve"
+      transform="translate(72 328)" fill="#6E7079">150 ml</text><text
+      dominant-baseline="central" text-anchor="end"
+      style="font-size:12px;font-family:sans-serif;" xml:space="preserve"
+      transform="translate(72 194)" fill="#6E7079">200 ml</text><text
+      dominant-baseline="central" text-anchor="end"
+      style="font-size:12px;font-family:sans-serif;" xml:space="preserve"
+      transform="translate(72 60)" fill="#6E7079">250 ml</text><text
+      dominant-baseline="central" text-anchor="start"
+      style="font-size:12px;font-family:sans-serif;" xml:space="preserve"
+      transform="translate(728 730)" fill="#6E7079">0 °C</text><text
+      dominant-baseline="central" text-anchor="start"
+      style="font-size:12px;font-family:sans-serif;" xml:space="preserve"
+      transform="translate(728 596)" fill="#6E7079">5 °C</text><text
+      dominant-baseline="central" text-anchor="start"
+      style="font-size:12px;font-family:sans-serif;" xml:space="preserve"
+      transform="translate(728 462)" fill="#6E7079">10 °C</text><text
+      dominant-baseline="central" text-anchor="start"
+      style="font-size:12px;font-family:sans-serif;" xml:space="preserve"
+      transform="translate(728 328)" fill="#6E7079">15 °C</text><text
+      dominant-baseline="central" text-anchor="start"
+      style="font-size:12px;font-family:sans-serif;" xml:space="preserve"
+      transform="translate(728 194)" fill="#6E7079">20 °C</text><text
+      dominant-baseline="central" text-anchor="start"
+      style="font-size:12px;font-family:sans-serif;" xml:space="preserve"
+      transform="translate(728 60)" fill="#6E7079">25 °C</text><text
+      dominant-baseline="central" text-anchor="middle"
+      style="font-size:12px;font-family:sans-serif;" y="6"
+      transform="translate(125.7143 738)" fill="#6E7079">Mon</text><text
+      dominant-baseline="central" text-anchor="middle"
+      style="font-size:12px;font-family:sans-serif;" y="6"
+      transform="translate(217.1429 738)" fill="#6E7079">Tue</text><text
+      dominant-baseline="central" text-anchor="middle"
+      style="font-size:12px;font-family:sans-serif;" y="6"
+      transform="translate(308.5714 738)" fill="#6E7079">Wed</text><text
+      dominant-baseline="central" text-anchor="middle"
+      style="font-size:12px;font-family:sans-serif;" y="6"
+      transform="translate(400 738)" fill="#6E7079">Thu</text><text
+      dominant-baseline="central" text-anchor="middle"
+      style="font-size:12px;font-family:sans-serif;" y="6"
+      transform="translate(491.4286 738)" fill="#6E7079">Fri</text><text
+      dominant-baseline="central" text-anchor="middle"
+      style="font-size:12px;font-family:sans-serif;" y="6"
+      transform="translate(582.8571 738)" fill="#6E7079">Sat</text><text
+      dominant-baseline="central" text-anchor="middle"
+      style="font-size:12px;font-family:sans-serif;" y="6"
+      transform="translate(674.2857 738)" fill="#6E7079">Sun</text><path
+      d="M92.3429 730l30.3377 0l0 -5.36l-30.3377 0Z" fill="#5470c6"></path><path
+      d="M183.7714 730l30.3377 0l0 -13.132l-30.3377 0Z" fill="#5470c6"></path><path
+      d="M275.2 730l30.3377 0l0 -18.76l-30.3377 0Z" fill="#5470c6"></path><path
+      d="M366.6286 730l30.3377 0l0 -62.176l-30.3377 0Z" fill="#5470c6"></path><path
+      d="M458.0571 730l30.3377 0l0 -68.608l-30.3377 0Z" fill="#5470c6"></path><path
+      d="M549.4857 730l30.3377 0l0 -205.556l-30.3377 0Z" fill="#5470c6"></path><path
+      d="M640.9143 730l30.3377 0l0 -363.408l-30.3377 0Z" fill="#5470c6"></path><path
+      d="M128.7481 730l30.3377 0l0 -6.968l-30.3377 0Z" fill="#91cc75"></path><path
+      d="M220.1766 730l30.3377 0l0 -15.812l-30.3377 0Z" fill="#91cc75"></path><path
+      d="M311.6052 730l30.3377 0l0 -24.12l-30.3377 0Z" fill="#91cc75"></path><path
+      d="M403.0338 730l30.3377 0l0 -70.752l-30.3377 0Z" fill="#91cc75"></path><path
+      d="M494.4623 730l30.3377 0l0 -76.916l-30.3377 0Z" fill="#91cc75"></path><path
+      d="M585.8909 730l30.3377 0l0 -189.476l-30.3377 0Z" fill="#91cc75"></path><path
+      d="M677.3195 730l30.3377 0l0 -470.608l-30.3377 0Z" fill="#91cc75"></path><g
+      clip-path="url(#zr0-c0)"><path d="M125.7143 676.4L217.1429 671.04L308.5714
+        641.56L400 609.4L491.4286 561.16L582.8571 456.64L674.2857
+        185.96L765.7143 102.88L857.1429 113.6L948.5714 287.8L1040
+        408.4L1131.4286 563.84" fill="none" stroke="#fac858" stroke-width="2"
+        stroke-linejoin="bevel"></path></g><path d="M1 0A1 1 0 1 1 1 -0.0001"
+      transform="matrix(0,0,0,0,125.7143,676.4)" fill="#fff" stroke="#fac858"
+      stroke-width="0"></path><path d="M1 0A1 1 0 1 1 1 -0.0001"
+      transform="matrix(0,0,0,0,217.1429,671.04)" fill="#fff" stroke="#fac858"
+      stroke-width="0"></path><path d="M1 0A1 1 0 1 1 1 -0.0001"
+      transform="matrix(0,0,0,0,308.5714,641.56)" fill="#fff" stroke="#fac858"
+      stroke-width="0"></path><path d="M1 0A1 1 0 1 1 1 -0.0001"
+      transform="matrix(0,0,0,0,400,609.4)" fill="#fff" stroke="#fac858"
+      stroke-width="0"></path><path d="M1 0A1 1 0 1 1 1 -0.0001"
+      transform="matrix(0,0,0,0,491.4286,561.16)" fill="#fff" stroke="#fac858"
+      stroke-width="0"></path><path d="M1 0A1 1 0 1 1 1 -0.0001"
+      transform="matrix(0,0,0,0,582.8571,456.64)" fill="#fff" stroke="#fac858"
+      stroke-width="0"></path><path d="M1 0A1 1 0 1 1 1 -0.0001"
+      transform="matrix(0,0,0,0,674.2857,185.96)" fill="#fff" stroke="#fac858"
+      stroke-width="0"></path><path d="M-5 -5l344 0l0 24l-344 0Z"
+      transform="translate(233 5)" fill="rgb(0,0,0)" fill-opacity="0"
+      stroke="#ccc" stroke-width="0"></path><path d="M3.5 0L21.5 0A3.5 3.5 0 0 1
+      25 3.5L25 10.5A3.5 3.5 0 0 1 21.5 14L3.5 14A3.5 3.5 0 0 1 0 10.5L0 3.5A3.5
+      3.5 0 0 1 3.5 0" transform="translate(233 5)" fill="#5470c6"></path><text
+      dominant-baseline="central" text-anchor="start"
+      style="font-size:12px;font-family:sans-serif;" x="30" y="7"
+      transform="translate(233 5)" fill="#333">Evaporation</text><path d="M3.5
+      0L21.5 0A3.5 3.5 0 0 1 25 3.5L25 10.5A3.5 3.5 0 0 1 21.5 14L3.5 14A3.5 3.5
+      0 0 1 0 10.5L0 3.5A3.5 3.5 0 0 1 3.5 0" transform="translate(345 5)"
+      fill="#91cc75"></path><text dominant-baseline="central"
+      text-anchor="start" style="font-size:12px;font-family:sans-serif;" x="30"
+      y="7" transform="translate(345 5)" fill="#333">Precipitation</text><path
+      d="M0 7L25 7" transform="translate(461 5)" fill="#000" stroke="#fac858"
+      stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10"></path><path
+      d="M18.1 7A5.6 5.6 0 1 1 18.1 6.9994" transform="translate(461 5)"
+      fill="#fff" stroke="#fac858" stroke-width="2" stroke-linecap="butt"
+      stroke-miterlimit="10"></path><text dominant-baseline="central"
+      text-anchor="start" style="font-size:12px;font-family:sans-serif;" x="30"
+      y="7" transform="translate(461 5)" fill="#333">Temperature</text></g><defs><clipPath
+      id="zr0-c0"><path d="M79 59l642 0l0 672l-642 0Z" fill="#000"></path></clipPath></defs></svg>
