@@ -8,6 +8,7 @@
   "scripts": {
     "start-dev": "nodemon -i web/build -x 'cd web && npm run build && cd .. && env-cmd -f config/dev.env node src/index.js'",
     "serve-dev": "nodemon -i web/build -x 'env-cmd -f config/dev.env node src/index.js'",
+    "build": "cd web && yarn build && cd ..",
     "start": "nodemon -x 'env-cmd -f config/dev.env node src/index.js'"
   },
   "dependencies": {
@@ -19,5 +20,9 @@
     "jsdom": "^19.0.0",
     "mongoose": "^6.2.1",
     "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.15"
   }
 }
