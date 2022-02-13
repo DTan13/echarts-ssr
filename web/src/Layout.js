@@ -23,6 +23,11 @@ function Layout(props) {
                             <Nav.Item active={props.page === "About"}>
                                 <NavLink style={{ textDecoration: "none" }} to="/about"> About</NavLink>
                             </Nav.Item>
+                            <Nav.Item active={false}>
+                                <center>
+                                    By <a target="_blank" rel="noreferrer" href="https://dtan13.tech">Dhananjay Tanpure</a>
+                                </center>
+                            </Nav.Item>
                         </Nav>
                     </center>
                 </Header>
