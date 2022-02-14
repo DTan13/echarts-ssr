@@ -15,6 +15,28 @@ function About() {
                     <Panel style={{ width: "50%" }} >
                         This Project is built using MERN Stack. For the database I have used MongoDB Atlas. <br /> The Data on the <Link to="/charts">Charts</Link> page
                         and the <Link to="/requests">Requests</Link> page is fetched from live database.
+                        <br />
+                        <br />
+                        You can test the API in Postman
+                        &nbsp;&nbsp;&nbsp;
+                        <div class="postman-run-button"
+                            data-postman-action="collection/fork"
+                            data-postman-var-1="11132969-0ddbf0b9-de66-49cf-b60e-bbf028d5d54c"
+                            data-postman-collection-url={`entityId=11132969-0ddbf0b9-de66-49cf-b60e-bbf028d5d54c&entityType=collection&workspaceId=18d6dbfc-15b3-4fde-9a5f-fd89ad2fe59e`}></div>
+                        <script type="text/javascript">
+                            {(function (p, o, s, t, m, a, n) {
+                                !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
+                                !o.getElementById(s + t) && o.getElementsByTagName("head")[0].appendChild((
+                                    (n = o.createElement("script")),
+                                    (n.id = s + t), (n.async = 1), (n.src = m), n
+                                ));
+                            }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"))}
+                        </script>
+                        <br />
+                        <br />
+                        Source Code
+                        &nbsp;&nbsp;&nbsp;
+                        <a target={"_blank"} rel="noreferrer" href="https://github.com/DTan13/alphaa.ai">Github</a>
                     </Panel>
                 </center>
                 <hr style={{ width: "70%" }} />
