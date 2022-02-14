@@ -1,8 +1,15 @@
 import React from 'react';
-import { Nav } from 'rsuite';
+import { Divider, Nav } from 'rsuite';
 
 import { NavLink } from 'react-router-dom';
 import { Container, Header, Content } from 'rsuite';
+
+const MyLink = React.forwardRef((props, ref) => {
+    const { href, as, ...rest } = props;
+    return (
+        <a ref={ref} {...rest} >{props.children}</a>
+    );
+});
 
 function Layout(props) {
     return (
@@ -23,7 +30,8 @@ function Layout(props) {
                             <Nav.Item active={props.page === "About"}>
                                 <NavLink style={{ textDecoration: "none" }} to="/about"> About</NavLink>
                             </Nav.Item>
-                            <Nav.Item active={false}>
+                            <Divider vertical />
+                            <Nav.Item as={MyLink} href="https://dtan13.tech" active={false}>
                                 <center>
                                     By <a target="_blank" rel="noreferrer" href="https://dtan13.tech">Dhananjay Tanpure</a>
                                 </center>

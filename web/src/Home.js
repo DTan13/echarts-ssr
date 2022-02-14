@@ -4,6 +4,8 @@ import axios from 'axios';
 
 import Layout from './Layout';
 
+import * as demoJOSN from './demo.json';
+
 const Textarea = React.forwardRef((props, ref) => <Input {...props} as="textarea" ref={ref} />);
 let url;
 
@@ -43,7 +45,16 @@ function Home() {
     function clearInputs() {
         document.getElementById('image_width').value = "";
         document.getElementById('image_length').value = "";
+        document.getElementById('key').value = "";
         document.getElementById('chart_options').value = "";
+        checkInputs();
+    }
+
+    function loadDemoData() {
+        document.getElementById('image_width').value = 800;
+        document.getElementById('image_length').value = 800;
+        document.getElementById('key').value = "DTan13";
+        document.getElementById('chart_options').value = JSON.stringify(demoJOSN);
         checkInputs();
     }
 
@@ -90,6 +101,7 @@ function Home() {
                 <div className="home">
                     <center>
                         <h1>Home</h1>
+                        Try the demo data first
                     </center>
                     <hr />
                     <Row >
@@ -120,6 +132,7 @@ function Home() {
                                         <ButtonToolbar>
                                             <Button appearance="primary" onClick={() => updateSVG()}>Submit</Button>
                                             <Button appearance="default" onClick={() => clearInputs()}>Clear</Button>
+                                            <Button appearance="primary" onClick={() => loadDemoData()}>Demo Data</Button>
                                         </ButtonToolbar>
                                     </center>
                                 </Form.Group>

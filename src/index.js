@@ -22,6 +22,7 @@ app.use("/home", express.static(path.resolve("web/build")));
 app.use("/charts", express.static(path.resolve("web/build")));
 app.use("/chart/:id", express.static(path.resolve("web/build")));
 app.use("/requests", express.static(path.resolve("web/build")));
+app.use("/about", express.static(path.resolve("web/build")));
 
 const port = process.env.PORT;
 
