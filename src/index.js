@@ -17,6 +17,11 @@ app.use(express.json());
 app.use(requestID());
 
 app.use(express.static(path.resolve("web/build")));
+app.use("/", express.static(path.resolve("web/build")));
+app.use("/home", express.static(path.resolve("web/build")));
+app.use("/charts", express.static(path.resolve("web/build")));
+app.use("/chart/:id", express.static(path.resolve("web/build")));
+app.use("/requests", express.static(path.resolve("web/build")));
 
 const port = process.env.PORT;
 
@@ -105,12 +110,12 @@ app.get("/api/chart/:id", async (req, res) => {
 });
 
 app.get("/api/requests", async (req, res) => {
-  let requests = await GetRequests()
+  let requests = await GetRequests();
   if (!requests) {
     return res.status(404).send({ error: "not found" });
   }
-  return res.send(requests)
-})
+  return res.send(requests);
+});
 
 app.listen(port, () => {
   console.log("App", port);
