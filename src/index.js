@@ -72,7 +72,13 @@ app.post("/api/image", async (req, res) => {
 
   const chart = echarts.init(root, null, { renderer: "svg" });
 
-  chart.setOption(chartOptions);
+  try {
+    chart.setOption(chartOptions);
+  } catch (e) {
+    res.status(400).send("recheck your json");
+    console.log(e);
+  }
+
 
   const chartSVG = root.querySelector('svg').outerHTML;
   const chartUUID = uuidv4().toString();
