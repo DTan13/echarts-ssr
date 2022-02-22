@@ -36,6 +36,11 @@ function Layout(props) {
                                     By <a target="_blank" rel="noreferrer" href="https://dtan13.tech">Dhananjay Tanpure</a>
                                 </center>
                             </Nav.Item>
+                            <Nav.Item as={MyLink} href="https://github.com/DTan13/echarts-ssr" active={false}>
+                                <center>
+                                    <a target="_blank" rel="noreferrer" href="https://github.com/DTan13/echarts-ssr">Code</a>
+                                </center>
+                            </Nav.Item>
                         </Nav>
                     </center>
                 </Header>
